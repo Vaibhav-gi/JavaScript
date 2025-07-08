@@ -2,7 +2,7 @@
 // --------
 // 	- Develop a simple online shopping cart functionality where users can add items, remove the last added item, and view all items currently in their cart.
 
-// Description : 
+// Description :
 // 	This is a core feature of any e-commerce website. A shopping cart needs to dynamically manage a list of products. We'll use array methods to simulate adding (push), removing (pop), and listing items.
 
 // Steps:
@@ -26,7 +26,7 @@ function addItemToCart(itemName){
 }
 
 function removeLastItemFromCart(){
-   
+
     shoppingCart.pop();
 }
 
@@ -68,7 +68,7 @@ viewCart();
 // 	- Return Value: Return the calculated average.
 
 // Test Cases :
-	
+
 // 	Sample input : aliceGrades = [85, 90, 78, 92, 88]
 // 	Sample output : 86.6
 
@@ -159,7 +159,7 @@ console.log(isProductInStock("Laptop"))
 // 	 - Return Value: Return the imageNames[newIndex].
 
 // Test Cases :
-	
+
 // 	Sample input :  imageNames = ["image1.jpg", "image2.png", "image3.gif", "image4.jpeg", "image5.bmp"];
 // 	Sample Output : Current: image1.jpg
 
@@ -189,10 +189,10 @@ let MapsGallery = (currentImageName, dir) => {
     return` Current: ${imageNames[newIndex]}`;
 };
 
-console.log(MapsGallery("image1.jpg", "next"));       
-console.log(MapsGallery("image5.bmp", "next"));       
-console.log(MapsGallery("image1.jpg", "previous"));  
-console.log(MapsGallery("nonExistent.jpg", "next"));  
+console.log(MapsGallery("image1.jpg", "next"));
+console.log(MapsGallery("image5.bmp", "next"));
+console.log(MapsGallery("image1.jpg", "previous"));
+console.log(MapsGallery("nonExistent.jpg", "next"));
 
 imageNames = ["image1.jpg", "image2.png", "image3.gif", "image4.jpeg", "image5.bmp"];
 

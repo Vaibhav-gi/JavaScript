@@ -1,0 +1,47 @@
+/* Style the form container */
+#myForm {
+  width: 320px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and select styles */
+#myForm input,
+#myForm select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+/* Highlight on focus */
+#myForm input:focus,
+#myForm select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Style the button */
+#myForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#myForm button:hover {
+  background-color: #0056b3;
+}
+/* CSS */

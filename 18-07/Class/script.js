@@ -1,7 +1,7 @@
 const cityInput = document.getElementById('inp');
 document.getElementById('btn').addEventListener('click', function ()
 {
-    fetch(`http://api.weatherapi.com/v1/current.json?key=0692d8a9a25f433baae113547251807&q=${cityInput.value}&aqi=no
+    fetch(`https://api.weatherapi.com/v1/current.json?key=0692d8a9a25f433baae113547251807&q=${cityInput.value}&aqi=no
 `)
         .then((res) => res.json())
         .then((data) => displayData(data))
